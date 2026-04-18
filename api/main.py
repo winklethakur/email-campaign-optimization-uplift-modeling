@@ -35,7 +35,7 @@ This API predicts the **incremental lift** an email campaign will have on a spec
 ### How it works
 - **T-Learner** (Two-model learner): three separate Gradient Boosting models trained on each experimental arm (Control, Mens Email, Womens Email).
 - **Uplift** = P(visit | email) − P(visit | no email)
-- Customers with high uplift are **persuadables** — they respond to email.
+- Customers with high uplift are **persuadables** ,they respond to email.
 - Customers with low uplift would visit anyway, or won't respond regardless.
 
 ### Endpoints
