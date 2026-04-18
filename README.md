@@ -2,7 +2,7 @@
 
 This project is about figuring out which customers should actually receive a marketing email, instead of just blasting every customer and hoping someone responds. I used a real email marketing dataset called the Hillstrom MineThatData dataset, built an end to end analysis in a Jupyter notebook, trained an uplift model, and then deployed it as a REST API using FastAPI on Render.
 
-The live API with Swagger UI is available here: https://email-uplift-predictor.onrender.com/docs
+The live API with Swagger UI is available here: https://email-campaign-optimization-uplift.onrender.com/docs
 
 ---
 
