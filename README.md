@@ -236,7 +236,7 @@ Response:
 Clone the repository.
 
 ```
-git clone https://github.com/yourusername/uplift-modelling.git
+git clone https://github.com/winklethakur/email-campaign-optimization-uplift-modeling.git
 cd uplift-modelling
 ```
 
@@ -250,7 +250,7 @@ Move into the api folder and start the server.
 
 ```
 cd api
-uvicorn main:app --reload
+uvicorn api.main:app --reload
 ```
 
 Open your browser and go to http://localhost:8000/docs to use the Swagger UI.
@@ -270,7 +270,7 @@ pip install -r requirements.txt
 The start command is:
 
 ```
-uvicorn main:app --host 0.0.0.0 --port $PORT
+uvicorn api.main:app --host 0.0.0.0 --port $PORT
 ```
 
 The app is running on Render's free tier. Free tier instances spin down after 15 minutes of inactivity, so the first request after that will take around 30 seconds to respond while the server wakes up. After that it responds instantly.
@@ -319,7 +319,7 @@ Deploying the model with FastAPI was also new for me. Getting joblib serializati
 
 ## Author
 
-[Winkle]
+Winkle
 
 [LinkedIn](https://www.linkedin.com/in/winkle-data-scientist/)
 
