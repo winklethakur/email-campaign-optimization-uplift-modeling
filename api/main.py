@@ -48,10 +48,9 @@ This API predicts the **incremental lift** an email campaign will have on a spec
 """,
     version="1.0.0",
     contact={
-        "name": "Your Name",
-        "url": "https://github.com/yourusername/email-uplift-modelling",
+        "name": "Winkle",
+        "url": "https://www.linkedin.com/in/winkle-data-scientist/",
     },
-    license_info={"name": "MIT"},
 )
 
 
